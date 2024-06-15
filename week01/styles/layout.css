@@ -3,7 +3,6 @@ body {
     height: 100%;
     margin: 0;
 }
-
 header {
     grid-column: 1/5;
     padding: 20px;
@@ -11,32 +10,27 @@ header {
     background-color: rgb(53, 53, 53);
     color: white;
 }
-
 .grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(12, 1fr);
     display: grid;
     height: 100%;
 }
-
 .navbox {
     grid-column: 1/5;
     background-color: black;
     display: flex;
     align-items: center
 }
-
 .navigation {
     margin: 0 auto;
     padding: 20px;
 }
-
 .navigation a {
     padding: 0 50px;
     color: white;
     text-decoration: none;
 }
-
 .main-content {
     padding: 20px;
     padding-bottom: 80px;
@@ -44,7 +38,6 @@ header {
     grid-row: 3/12;
     background-color: grey;
 }
-
 .side-content {
     padding: 20px;
     padding-bottom: 80px;
@@ -52,7 +45,6 @@ header {
     grid-row: 3/12;
     background-color: white;
 }
-
 footer {
     grid-column: 1/5;
     padding: 20px;

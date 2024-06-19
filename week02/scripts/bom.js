@@ -3,18 +3,21 @@
 // Declaring variables 
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('#list');
-
-const li = document.createElement('li');
-const deleteButton = document.createElement('button');
+const list = document.querySelector('ul');
+;
 
 // Add Chapter Event "On Click"
 button.addEventListener('click', function () {
     if (input.value.trim() !== '') {
-        // Creating the delete button on listed items
+        // Creating list items and delete button
+        const li = document.createElement('li');
+        const deleteButton = document.createElement('button')
+        // Declaring content
         li.textContent = input.value;
         deleteButton.textContent = '❌';
+        // Attaching del button to list item
         li.append(deleteButton);
+        // Append item to list
         list.append(li);
         // Delete Button Event
         deleteButton.addEventListener('click', function () {

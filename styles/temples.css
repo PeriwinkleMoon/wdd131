@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-one: #978BBA;
+    --color-two: #1C1D21;
+    --color-three: #4900a8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 0;
+    font-family: Urbanist, sans-serif;
+}
+
+h1 {
+    font-family: Rowdies, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+}
+
+/* HEADER */
+
+header {
+    margin: 0;
+    background-color: var(--color-one);
+}
+
+header h1 {
+    padding: 1rem;
+    font-size: 3rem;
+    color: var(--color-two);
+    ;
+}
+
+/* NAVIGATION */
+#hamburger {
+    display: block;
+    float: right;
+    margin-top: -2.5em;
+    margin-right: 1em;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: var(--color-one);
+    color: white;
+}
+
+#hamburger::before {
+    content: "≡";
+    font-size: 3rem;
+    color: var(--color-two);
+}
+
+nav {
+    background-color: var(--color-two);
+}
+
+.main-navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.main-navigation li {
+    display: none;
+}
+
+.main-navigation a {
+    display: block;
+    padding: 0.7rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 2rem;
+}
+
+.main-navigation a:hover,
+.main-navigation a:active {
+    color: var(--color-two);
+    background-color: var(--color-one);
+}
+
+.show li {
+    display: block;
+}
+
+#hamburger.show::before {
+    content: "X";
+    color: var(--color-two);
+}
+
+/* MAIN */
+
+main {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+main h1 {
+    padding: 20px;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+figure {
+    margin: 10px;
+}
+
+img {
+    border: solid 1px var(--color-two);
+}
+
+/* FOOTER */
+
+footer {
+    position: static;
+    bottom: 0px;
+    background-color: var(--color-one);
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding: 10px;
+    padding-bottom: 0;
+    color: var(--color-two);
+    text-align: center;
+    font-weight: bold;
+}
+
+#lastModified {
+    color: var(--color-three);
+}

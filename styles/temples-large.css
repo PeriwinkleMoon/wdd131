@@ -1,0 +1,53 @@
+:root {
+    --color-one: #978BBA;
+    --color-two: #1C1D21;
+    --color-three: #4900a8;
+}
+
+@media screen and (min-width: 1081px) {
+    header {
+        max-width: 100%;
+        height: 4rem;
+        margin: 0 auto;
+        padding: 1rem 5rem;
+        background-color: var(--color-one);
+        color: var(--color-two);
+    }
+
+    header h1 {
+        display: inline;
+    }
+
+    nav {
+        display: inline;
+        float: right;
+        background-color: var(--color-one);
+    }
+
+    .main-navigation {
+        display: flex;
+        background-color: var(--color-one);
+    }
+
+    .main-navigation li {
+        display: block;
+        flex: 1 1 100%;
+        margin-right: 0.7em;
+    }
+
+    .main-navigation a {
+        text-align: center;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    .album-grid {
+        margin: 0 5em;
+    }
+
+    img {
+        max-width: 500px;
+    }
+}

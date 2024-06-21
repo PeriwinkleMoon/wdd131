@@ -16,7 +16,8 @@ body {
     font-family: Urbanist, sans-serif;
 }
 
-h1 {
+h1,
+h2 {
     font-family: Rowdies, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
 }

@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto Slab", Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
@@ -31,7 +31,6 @@ img {
 }
 
 #weather-icon {
-    content: url(/images/weather-icon.svg);
     max-width: 100px;
 }
 

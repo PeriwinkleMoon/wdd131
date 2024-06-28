@@ -59,16 +59,12 @@
         text-align: left;
     }
 
-    .weather-content {
-        padding-top: 100px;
+    .weather-box h2::after {
+        content: " ⛅";
     }
 
     #weather-icon {
-        z-index: 3;
-        position: absolute;
-        max-width: 80px;
-        top: .6em;
-        left: 8em;
+        content: none;
     }
 
     /* FOOTER */

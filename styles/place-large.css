@@ -1,0 +1,80 @@
+@media screen and (min-width: 1300px) {
+    header {
+        max-width: 100%;
+        padding: .2em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* DATA TABLE */
+    .data-box {
+        z-index: 2;
+        position: absolute;
+        left: 5em;
+        top: 15em;
+        background-color: rgba(255, 255, 255, 0.705);
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .data-box h2 {
+        z-index: 3;
+        position: absolute;
+        width: 250px;
+        top: .5em;
+        left: -.5em;
+        background-color: rgb(198, 19, 42);
+        color: white;
+        border-radius: 5px;
+        text-align: left;
+    }
+
+    .data-content {
+        padding-top: 100px;
+    }
+
+    /* WEATHER TABLE */
+    .weather-box {
+        z-index: 2;
+        position: absolute;
+        right: 5em;
+        bottom: 15em;
+        background-color: rgba(255, 255, 255, 0.705);
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .weather-box h2 {
+        z-index: 3;
+        position: absolute;
+        width: 200px;
+        top: .5em;
+        left: -.5em;
+        background-color: rgb(198, 19, 42);
+        color: white;
+        border-radius: 5px;
+        text-align: left;
+    }
+
+    .weather-content {
+        padding-top: 100px;
+    }
+
+    #weather-icon {
+        z-index: 3;
+        position: absolute;
+        max-width: 80px;
+        top: .6em;
+        left: 8em;
+    }
+
+    /* FOOTER */
+    footer {
+        max-width: 100%;
+        padding-top: 2em;
+        margin-top: -1em;
+    }
+}

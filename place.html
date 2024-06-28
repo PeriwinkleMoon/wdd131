@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Place Assignment</title>
+    <meta name="description" content="week 3 end of week assignment: place page">
+    <meta name="author" content="Ella Moon">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="page-title">
+            <h1>New Zealand</h1>
+        </div>
+    </header>
+    <main>
+        <picture>
+            <source media="(min-width: 1300px)" srcset="images/hero-wide.webp">
+            <source media="(min-width: 900px)" srcset="images/hero-tall.webp">
+            <img src="images/hero-tall.webp" alt="'Aerial Photography of Forest' copyright Jeremy Bishop" width="800"
+                height="1100">
+        </picture>
+        <div class="data-box">
+            <h2>Data</h2>
+            <div class="data-content">
+                <ul>
+                    <li><b>Area:</b> 103,483 mi²</li>
+                    <li><b>Population:</b> 5,269,776</li>
+                    <li><b>Capital:</b> Wellington</li>
+                    <li><b>Languages:</b> English, Māori</li>
+                    <li><b>Currency:</b> NZ Dollar (NZD)</li>
+                    <li><b>Time Zones:</b> UTC +12, UTC +12:45</li>
+                    <li><b>Country Code:</b> +64</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="weather-box">
+            <h2>Weather</h2>
+            <span id="weather-icon"></span>
+            <div class="weather-content">
+                <ul>
+                    <li><b>Temperature:</b> 12 °C</li>
+                    <li><b>Conditions:</b> Passing clouds</li>
+                    <li><b>Wind:</b> 14 km/h</li>
+                    <li><b>Wind Chill:</b> <span id="windChill"></span> ºC</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Ella Haines Moon | Salt Lake County, UT</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

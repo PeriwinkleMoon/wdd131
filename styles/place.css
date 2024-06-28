@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+:root {
+    --color-one: rgb(0, 31, 128);
+}
+
+header {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 768px;
+    text-align: center;
+    background-color: var(--color-one);
+}
+
+footer {
+    margin: 0 auto;
+    background-color: var(--color-one);
+    padding: 1em;
+    color: white;
+    max-width: 800px;
+}
+
+img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+#weather-icon {
+    content: url(/images/weather-icon.svg);
+    max-width: 100px;
+}
+
+h1 {
+    padding: 1em;
+    color: white;
+}
+
+h2 {
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    display: table;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+li {
+    display: table-row;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+b {
+    display: table-cell;
+    text-align: right;
+    padding-right: 1em;
+}
+
+
+main {
+    margin: 0;
+    background-color: white;
+}

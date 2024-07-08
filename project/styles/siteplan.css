@@ -170,9 +170,16 @@ footer {
 }
 
 @media screen and (max-width: 869px) {
-    main {
+
+    header,
+    footer {
+        width: 94%;
         margin: 0 auto;
-        width: 100%;
+    }
+
+    body {
+        background-color: white;
+        background-image: none;
     }
 
     .style-guide,

@@ -51,7 +51,7 @@ form legend {
 }
 
 form input[type="text"],
-form input[type="textarea"],
+form textarea,
 form input[type="date"],
 form select {
     border: 1px solid grey;

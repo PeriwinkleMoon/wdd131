@@ -1,0 +1,118 @@
+:root {
+    --color-one: rgb(174, 201, 252);
+    --accent-one: rgb(210, 219, 235);
+    --color-two: rgb(41, 23, 85);
+    --accent-two: rgb(95, 78, 138);
+    --body-font: Arial;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 16px;
+    font-family: var(--body-font)
+}
+
+header,
+footer {
+    padding: .5em 2%;
+    text-align: center;
+    background-color: rgb(174, 201, 252);
+    border-radius: 6px;
+    color: rgb(41, 23, 85);
+}
+
+main {
+    padding: 0 2%;
+    min-height: 35em;
+}
+
+form {
+    margin: 1em 0;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: 1rem 4%;
+    background-color: var(--accent-one);
+}
+
+form fieldset {
+    margin: 1rem 0;
+    border: none;
+    padding: .5em 2%;
+}
+
+form label {
+    display: block;
+}
+
+form legend {
+    font-weight: 600;
+
+}
+
+form input[type="text"],
+form input[type="date"],
+form select {
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: .75rem;
+    color: grey;
+    width: 100%;
+    max-width: 645px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    transform: scale(2);
+    margin-right: 6px;
+    margin: .8em;
+}
+
+.buttons {
+    font-weight: bold;
+}
+
+.stars {
+    display: flex;
+
+}
+
+.stars label {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    justify-items: center;
+    padding: .3em;
+}
+
+i {
+    font-size: .9em;
+}
+
+.opt {
+    color: blue;
+}
+
+form input[type="submit"] {
+    border-radius: 6px;
+    width: 95%;
+    margin: 1em 2%;
+    padding: .75em;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--color-one);
+    color: var(--color-two);
+    box-shadow: 1px 1px 1px grey;
+}
+
+form input[type="submit"]:hover {
+    font-size: 20px;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin-bottom: 1em;
+}

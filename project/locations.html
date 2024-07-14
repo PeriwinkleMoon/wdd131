@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Edemia</title>
+    <link rel="stylesheet" href="styles/intro.css">
+    <link rel="stylesheet" href="styles/intro-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="scripts/intro.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Intro to Edemia</h1>
+        <a id="hamburger" href="#"></a>
+        <nav>
+            <div class="main-nav">
+                <li>
+                    <a href="index.html" id="home-nav">Home</a>
+                </li>
+                <li>
+                    <a href="trivia.html" id="home-nav">Trivia</a>
+                </li>
+                <li>
+                    <a href="species.html" id="home-nav">Species</a>
+                </li>
+                <li>
+                    <a href="locations.html" id="home-nav" class="active">Locations</a>
+                </li>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="hero-box">
+            <h1>Locations</h1>
+            <picture id="hero-img">
+                <img src="images/hero-wide.webp" width="1600" height="200">
+            </picture>
+        </div>
+
+
+        <div class="content" id="locations-content">
+            <div class="world-map">
+                <img src="images/world-map.webp" title="World map of Edemia." alt="world map of Edemia" id="world-map">
+                <p>
+                    <i>The world of Edemia is a magical and varied place.</i><br>A little smaller than our own Earth,
+                    Edemia is
+                    home to several different landmasses and hundreds of cultures.
+                    The main two continents are known as <b>Lassi</b> and
+                    <b>Overgrowth</b>. But there are several other islands
+                    and
+                    smaller continents, such as Equalis and Aurevant.
+                </p>
+                <p>
+                    For the purposes of this page Nokfill and
+                    Phurull are
+                    grouped with
+                    Overgrowth,
+                    but the groupings are a little arbitrary. The map of Edemia has undergone a lot of tweaking over the
+                    years,
+                    and the current map only distinguishes general polictical/cultural borders. It's also missing a map
+                    of the many sky islands that litter Edemia.
+                </p>
+            </div>
+            <!-- Location Selection image banners -->
+            <!-- LASSI -->
+            <div class="continent" id="Lassi">
+                <h2>Lassi</h2>
+                <div class="image-selection" id="location-select">
+                    <!-- Quardrium -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="quardrium icon">
+                        <sub id="quard">Quardrium</sub>
+                    </button>
+                    <!-- Fabrem -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Fabrem icon">
+                        <sub id="fabrem">Fabrem</sub>
+                    </button>
+                    <!-- Aquariall -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Aquariall icon">
+                        <sub id="aqua">Aquariall</sub>
+                    </button>
+                    <!-- Malchester -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="malchester icon">
+                        <sub id="malch">Malchester</sub>
+                    </button>
+                    <!-- Rictos -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="rictos icon">
+                        <sub id="rictos">Rictos</sub>
+                    </button>
+                </div>
+                <div class="info-box">
+                    <h1>Location Name</h1>
+                    <h4>Pronounciation</h4>
+                    <img src="https://placehold.co/450x400">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ex beatae eveniet totam
+                        quis
+                        provident accusantium exercitationem architecto dicta esse.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur.</p>
+                </div>
+            </div>
+            <!-- OVERGROWTH -->
+            <div class="continent" id="Overgrowth">
+                <h2>Overgrowth</h2>
+                <div class="image-selection" id="location-select">
+                    <!-- Overgrowth -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Northern Overgrowth icon">
+                        <sub id="northO">Northern Overgrowth</sub>
+                    </button>
+                    <!-- Central -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Central Overgrowth icon">
+                        <sub id="centralO">Central Overgrowth</sub>
+                    </button>
+                    <!-- Valkirii -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Valkirii icon">
+                        <sub id="valk">Valkirii</sub>
+                    </button>
+                    <!-- Nokfil -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Nokfil icon">
+                        <sub id="nokfil">Nokfil</sub>
+                    </button>
+                    <!-- Phurull -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Phurull icon">
+                        <sub id="phurull">Phurull</sub>
+                    </button>
+                </div>
+                <div class="info-box">
+                    <h1>Location Name</h1>
+                    <h4>Pronounciation</h4>
+                    <img src="https://placehold.co/450x400">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ex beatae eveniet totam
+                        quis
+                        provident accusantium exercitationem architecto dicta esse.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur.</p>
+                </div>
+            </div>
+            <!-- OTHER -->
+            <div class="continent" id="Other">
+                <h2>Other Continents & Islands</h2>
+                <div class="image-selection" id="location-select">
+                    <!-- Equalis -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Equalis icon">
+                        <sub id="equalis">Equalis</sub>
+                    </button>
+                    <!-- Carasil -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="carasil icon">
+                        <sub id="carasil">Carasil</sub>
+                    </button>
+                    <!-- Therminn -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Therminn icon">
+                        <sub id="therminn">Therminn</sub>
+                    </button>
+                    <!-- Iaris -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Iaris icon">
+                        <sub id="iaris">Iaris</sub>
+                    </button>
+                    <!-- Aurevant -->
+                    <button class="select-icon">
+                        <img src="https://placehold.co/120x100" alt="Aurevant icon">
+                        <sub id="aurevant">Aurevant</sub>
+                    </button>
+                </div>
+                <div class="info-box">
+                    <h1>Location Name</h1>
+                    <h4>Pronounciation</h4>
+                    <img src="https://placehold.co/450x400">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ex beatae eveniet totam
+                        quis
+                        provident accusantium exercitationem architecto dicta esse.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Temporibus dolores quod excepturi officiis
+                        earum veniam? Saepe animi aliquam ipsa qui nihil laborum illo quis perspiciatis mollitia
+                        consequuntur, reiciendis adipisci tempore iusto corrupti blanditiis architecto? Veniam fugit
+                        modi
+                        iste amet tempore unde inventore odio eveniet repellendus exercitationem, quod, debitis optio
+                        tenetur.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="foot-copy">
+            <p>&copy;<span id="currentyear"></span> | Ella Haines Moon | Salt Lake County, UT - <span
+                    id="lastModified"></span>
+            </p>
+        </section>
+        <section class="foot-nav">
+            <p>
+                <a href="https://toyhou.se/~world/23849.edemia" target="_blank">Toyhou.se</a> |
+                <a href="https://edemia.miraheze.org/wiki/Main_Page" target="_blank">Wiki</a> |
+                <a href="credits.txt" target="_blank">Credits</a>
+            </p>
+        </section>
+    </footer>
+</body>

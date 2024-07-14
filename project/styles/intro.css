@@ -1,0 +1,295 @@
+:root {
+    --color-one: #F68CB5;
+    --color-two: #725382;
+    --color-three: #3e2849;
+    --paragraph-font: "Montserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --heading-font: "Josefin Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(var(--color-two), var(--color-three));
+    font-family: var(--paragraph-font);
+}
+
+/* ----------Header---------- */
+header,
+footer {
+    background-color: var(--color-one);
+    padding: 1em;
+}
+
+header h1 {
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: var(--color-three);
+    display: inline-flex;
+}
+
+/* ----------Navigation---------- */
+#hamburger {
+    float: right;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 .75rem;
+    background-color: var(--color-one);
+    color: var(--color-three);
+}
+
+#hamburger::before {
+    content: "≡";
+    font-size: 2.5rem;
+    color: var(--color-three);
+}
+
+nav {
+    background-color: var(--color-two);
+    margin: 0 -1rem;
+    margin-bottom: -1rem;
+}
+
+.main-nav {
+    list-style: none;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-nav li {
+    display: none;
+}
+
+.main-nav a {
+    display: block;
+    padding: 0.7rem;
+    text-decoration: none;
+    color: var(--color-three);
+    font-weight: bolder;
+    transition: 1s;
+    font-size: 2rem;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+    text-decoration: underline;
+    color: white;
+    background-color: var(--color-three);
+}
+
+.show li {
+    display: block;
+}
+
+#hamburger.show::before {
+    content: "x";
+}
+
+.active::before {
+    content: "♦ ";
+}
+
+/* ----------Main---------- */
+main {
+    margin: 0 auto;
+    max-width: 1600px;
+    min-height: 100vh;
+    background-color: white;
+}
+
+#hero-box {
+    text-align: center;
+    position: relative;
+}
+
+#hero-box h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: .3em 2% .2em 2%;
+    border-radius: 20px;
+}
+
+#hero-img img {
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+}
+
+/* ----------Main Content---------- */
+.content {
+    padding: 1rem 1.5rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content p {
+    text-align: center;
+    padding: .5rem;
+}
+
+/* ----------------- HOME PAGE ----------------- */
+.card-grid {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mod-card {
+    padding: .5em;
+    border: 1px solid #3e2849;
+    width: 600px;
+    margin: 1em;
+    text-align: center;
+}
+
+.card-pfp {
+    float: left;
+    margin: 1em;
+}
+
+.card-title {
+    margin-top: .5em;
+    color: var(--color-three);
+}
+
+.card-subtitle {
+    font-size: 1.5em;
+    color: var(--color-two);
+    margin-bottom: .7em;
+}
+
+.card-links {
+    margin-top: 1em;
+
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-links div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* ----------------- SPECIES PAGE ----------------- */
+#species-content h2,
+#locations-content h2 {
+    margin: .4em auto;
+    padding: .4em;
+    padding-top: .5em;
+    max-width: 900px;
+    width: 95%;
+    background-color: var(--color-one);
+    color: var(--color-three);
+    border-radius: 6px;
+    font-size: 3em;
+
+}
+
+.image-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.select-icon {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: .4em;
+    border: none;
+    background-color: white;
+}
+
+.select-icon img {
+    border-radius: 6px;
+    border: 1px solid var(--color-one);
+    box-shadow: 1px 1px 3px var(--color-three);
+}
+
+.select-icon sub {
+    padding-top: .4em;
+    font-size: 1em;
+    font-family: var(--heading-font);
+}
+
+.select-icon:hover {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.select-icon img:hover {
+    box-shadow: 2px 2px 4px var(--color-one);
+}
+
+/* Info box */
+.info-box {
+    border: 1px solid var(--color-three);
+    border-radius: 6px;
+    padding: 2em;
+    margin: 1em 0;
+}
+
+.info-box h4 {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.info-box img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+/*----------------- LOCATIONS PAGE -----------------*/
+.continent {
+    margin-bottom: 4.5em;
+}
+
+.world-map {
+    display: block;
+}
+
+.world-map p {
+    padding: 1em 1.5em;
+    text-align: center;
+}
+
+#world-map {
+    max-width: 1048px;
+    width: 100%;
+    height: auto;
+}
+
+/* -------------Footer------------- */
+footer {
+    margin-top: auto;
+    padding: 1em 3em;
+    text-align: center;
+    display: block;
+}
+
+.foot-nav {
+    padding-top: .5em;
+}

@@ -6,6 +6,16 @@
 }
 
 @media screen and (min-width: 1048px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero-box h1 {
+        background-color: rgba(255, 255, 255, 0.699);
+        padding: .3em 2% .2em 2%;
+        border-radius: 20px;
+    }
+
     nav {
         display: inline;
         float: right;
@@ -50,6 +60,15 @@
 
     .foot-nav {
         text-align: right;
+    }
+
+    /* HOME PAGE */
+    .mod-card {
+        width: 600px;
+    }
+
+    .card-pfp {
+        float: left;
     }
 
     /* SPECIES PAGE */

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to Edemia</title>
+
     <link rel="stylesheet" href="styles/intro.css">
     <link rel="stylesheet" href="styles/intro-large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +41,10 @@
         <div id="hero-box">
             <h1>Locations</h1>
             <picture id="hero-img">
-                <img src="images/hero-wide.webp" width="1600" height="200">
+                <source media="(min-width: 1048px)" srcset="images/hero-wide.webp">
+                <source media="(min-width: 900px)" srcset="images/hero-small.webp">
+                <img src="images/hero-small.webp" alt="Hero image. Illustration of Meteorite, capital of Fabrem"
+                    width="1600" height="200">
             </picture>
         </div>
 

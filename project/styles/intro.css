@@ -35,7 +35,7 @@ footer {
 
 header h1 {
     padding: 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--color-three);
     display: inline-flex;
 }
@@ -121,11 +121,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.5em;
+    font-size: 2.2em;
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
-    background-color: rgba(255, 255, 255, 0.699);
-    padding: .3em 2% .2em 2%;
-    border-radius: 20px;
 }
 
 #hero-img img {
@@ -151,21 +148,23 @@ main {
 .card-grid {
     margin: 0 auto;
     max-width: 1300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .mod-card {
     padding: .5em;
     border: 1px solid #3e2849;
-    width: 600px;
+    border-radius: 6px;
+    width: 100%;
     margin: 1em;
     text-align: center;
 }
 
 .card-pfp {
-    float: left;
     margin: 1em;
+    border-radius: 6px;
 }
 
 .card-title {

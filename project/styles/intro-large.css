@@ -13,7 +13,7 @@
     #hero-box h1 {
         background-color: rgba(255, 255, 255, 0.699);
         padding: .3em 2% .2em 2%;
-        border-radius: 20px;
+        border-radius: 30% 10%;
     }
 
     nav {
@@ -47,7 +47,7 @@
         text-decoration: underline;
         color: white;
         background-color: var(--color-two);
-        border-radius: 5rem;
+        border-radius: 3em;
     }
 
     footer {
@@ -72,6 +72,11 @@
     }
 
     /* SPECIES PAGE */
+    #species-content h2,
+    #locations-content h2 {
+        margin: .4em 5em;
+    }
+
     .info-box,
     .info-box p {
         text-align: left;

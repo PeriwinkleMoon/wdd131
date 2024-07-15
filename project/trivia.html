@@ -25,13 +25,13 @@
                     <a href="index.html" id="home-nav">Home</a>
                 </li>
                 <li>
-                    <a href="trivia.html" id="home-nav" class="active">Trivia</a>
-                </li>
-                <li>
                     <a href="species.html" id="home-nav">Species</a>
                 </li>
                 <li>
                     <a href="locations.html" id="home-nav">Locations</a>
+                </li>
+                <li>
+                    <a href="trivia.html" id="home-nav" class="active">Trivia</a>
                 </li>
             </div>
         </nav>
@@ -47,22 +47,85 @@
             </picture>
         </div>
         <div class="content" id="home-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fuga quis consequuntur repellendus at?
-                Sapiente quas dolores nesciunt eaque, perferendis modi ad veniam molestias sint dolorem culpa, pariatur
-                ipsum delectus! Hic, quis soluta ducimus voluptatem atque cupiditate corrupti quae in obcaecati eius
-                quibusdam culpa dicta facere quia dolor perspiciatis. Vitae mollitia animi eius sunt hic a quaerat nobis
-                pariatur rerum, porro libero recusandae assumenda ea dolore, non esse? Optio sed ad perspiciatis quia ab
-                temporibus? Fugiat placeat ipsam repudiandae corporis totam modi veniam temporibus maxime
-                dolorem?</p>
-            <p>Eum dicta rem hic eveniet voluptate nostrum dignissimos laudantium aliquam harum iure quod itaque
-                facilis,
-                consectetur architecto provident quis labore corrupti maxime odit? Autem, incidunt at minima, enim neque
-                velit perspiciatis beatae dolorem asperiores placeat cumque excepturi aliquid commodi modi reprehenderit
-                nihil nobis ullam dolor id architecto soluta illum quia earum quos. Labore totam, expedita iure quia
-                quidem.
-            </p>
-            <div class="card-grid">
-
+            <p>Now that you've read up a bit on the world of Edemia, let's test your knowledge. Think you can answer all
+                of the questions correctly? No cheating!</p>
+            <div class="trivia-form">
+                <form method="get" action="">
+                    <fieldset> <!-- GENERAL TRIVIA -------------->
+                        <legend>General Trivia</legend>
+                        <!-- Founding Question -->
+                        <p class="question-heading">What date did Edemia get its name?</p>
+                        <label><input type="date" id="founding"></label>
+                        <!-- My Title -->
+                        <p class="question-heading" title="This is definitely not a trick question...">Who has the title
+                            "The Uso Queen"?</p>
+                        <select name="uso-queen" required>
+                            <option value="">Choose a name...</option>
+                            <option value="loli">Lolly</option>
+                            <option value="sk">Ren (SK)</option>
+                            <option value="trio">Trio</option>
+                            <option value="wolf">Wolf</option>
+                            <option value="gal">(Gal)catty</option>
+                            <option value="darcy">Darcy</option>
+                            <option value="imp">Imp</option>
+                            <option value="dawn">Dawn</option>
+                            <option value="batty">Batty</option>
+                            <option value="selena">Selena (Mottie)</option>
+                        </select>
+                    </fieldset>
+                    <fieldset> <!-- SPECIES TRIVIA -------------->
+                        <legend>Species Trivia</legend>
+                        <!-- Magic Diet Questions -->
+                        <p class="question-heading">Which species' diet consists primarily of ambient magic?</p>
+                        <label><input type="radio" name="magic-diet" value="gignosk"> Gignosk</label>
+                        <label><input type="radio" name="magic-diet" value="uso"> Uso</label>
+                        <label><input type="radio" name="magic-diet" value="tb"> Temple Beast</label>
+                        <!-- Crystalid Species Question -->
+                        <p class="question-heading">Which of these are of the <i>crystalid</i> family?</p>
+                        <i class="question-heading">(Check all that apply)</i>
+                        <label><input type="checkbox" name="heli" value="helipanthera">Helipanthera</label>
+                        <label><input type="checkbox" name="uso" value="uso">Uso</label>
+                        <label><input type="checkbox" name="snipe" value="snipe">Snipe</label>
+                        <label><input type="checkbox" name="gignosk" value="gignosk">Gignosk</label>
+                        <!-- Metamorphasis Question -->
+                        <p class="question-heading">What is it called when an usogi becomes an usogami?</p>
+                        <label><input type="text" id="meta"></label>
+                    </fieldset>
+                    <fieldset> <!-- LOCATION TRIVIA -------------->
+                        <legend>Location Trivia</legend>
+                        <!-- Country Name Question -->
+                        <p class="question-heading">Which country did we name first?</p>
+                        <select name="named-country">
+                            <option value="">Pick a country...</option>
+                            <option value="quardrium">Quardrium</option>
+                            <option value="rictos">Rictos</option>
+                            <option value="malchester">Malchester</option>
+                            <option value="aquariall">Aquariall</option>
+                            <option value="equalis">Equalis</option>
+                            <option value="overgrowth">Overgrowth</option>
+                            <option value="carsil">Carasil</option>
+                            <option value="fabrem">Fabrem</option>
+                            <option value="valkirii">Valkirii</option>
+                            <option value="nokfil">Nokfil</option>
+                            <option value="iaris">Iaris</option>
+                            <option value="phurull">Phurull</option>
+                            <option value="therminn">Therminn</option>
+                            <option value="aurevant">Aurevant</option>
+                        </select>
+                        <!-- Rictos Dictator -->
+                        <p class="question-heading">Rictos's god-queen is named...</p>
+                        <label><input type="radio" name="queen-name" value="remilla">Remilla</label>
+                        <label><input type="radio" name="queen-name" value="angel">Angel</label>
+                        <label><input type="radio" name="queen-name" value="bastet">Bastet</label>
+                        <label><input type="radio" name="queen-name" value="galine">Galine</label>
+                        <label><input type="radio" name="queen-name" value="bismuth">Bismuth</label>
+                        <!-- Landlocked -->
+                        <p class="question-heading">True or false: Carasil is completely landlocked.</p>
+                        <label><input type="radio" name="tof" value="true"> True</label>
+                        <label><input type="radio" name="tof" value="false"> False</label>
+                    </fieldset>
+                    <label><input type="submit" value="Lock-in Answers"></label>
+                </form>
             </div>
         </div>
     </main>

@@ -100,7 +100,7 @@ nav {
 }
 
 .active::before {
-    content: "♦ ";
+    content: "✿ ";
 }
 
 /* ----------Main---------- */
@@ -194,14 +194,15 @@ main {
 /* ----------------- SPECIES PAGE ----------------- */
 #species-content h2,
 #locations-content h2 {
+    text-align: left;
     margin: .4em auto;
     padding: .4em;
     padding-top: .5em;
     max-width: 900px;
     width: 95%;
-    background-color: var(--color-one);
+    background-image: linear-gradient(to right, var(--color-one), rgba(255, 255, 255, 0));
     color: var(--color-three);
-    border-radius: 6px;
+    border-radius: 3px;
     font-size: 3em;
 
 }
@@ -234,7 +235,7 @@ main {
 }
 
 .select-icon:hover {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
 }
 

@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="scripts/intro.js" defer></script>
+    <script type="module" src="scripts/species.js" defer></script>
 </head>
 
 <body>
@@ -63,44 +64,45 @@
             </p>
             <!-- Species Selection image banner -->
             <h2>Species</h2>
-            <div class="image-selection" id="species-select">
+            <form class="image-selection" id="species-select">
                 <!-- Usogami -->
-                <button class="select-icon">
-                    <img src="https://placehold.co/100" alt="usogami icon">
-                    <sub id="uso">Uso</sub>
-                </button>
+                <label class="select-menu">
+                    <img src="images/select-uso.png" alt="usogami icon">
+                    <input type="radio" name="species-select" class="species-select" value="uso">
+                    <p id="uso">Uso</p>
+                </label>
                 <!-- Snipe -->
-                <button class="select-icon">
-                    <img src="https://placehold.co/100" alt="snipe icon">
-                    <sub id="snipe">Snipe</sub>
-                </button>
+                <label class="select-menu">
+                    <img src="images/select-snipe.png" alt="snipe icon">
+                    <input type="radio" name="species-select" class="species-select" value="snipe">
+                    <p id="snipe">Snipe</p>
+                </label>
                 <!-- Gignosk -->
-                <button class="select-icon">
-                    <img src="https://placehold.co/100" alt="gignosk icon">
-                    <sub id="gig">Gignosk</sub>
-                </button>
+                <label class="select-menu">
+                    <img src="images/select-gignosk.png" alt="gignosk icon">
+                    <input type="radio" name="species-select" class="species-select" value="gig">
+                    <p id="gig">Gignosk</p>
+                </label>
                 <!-- TB -->
-                <button class="select-icon">
-                    <img src="https://placehold.co/100" alt="Temple Beast icon">
-                    <sub id="tb">Temple Beast</sub>
-                </button>
+                <label class="select-menu">
+                    <img src="images/select-tb.png" alt="Temple Beast icon">
+                    <input type="radio" name="species-select" class="species-select" value="tb">
+                    <p id="tb">Temple Beast</p>
+                </label>
                 <!-- Helipanthera -->
-                <button class="select-icon">
-                    <img src="https://placehold.co/100" alt="Helipanthera icon">
-                    <sub id="heli">Helipanthera</sub>
-                </button>
+                <label class="select-menu">
+                    <img src="images/select-heli.png" alt="Helipanthera icon">
+                    <input type="radio" name="species-select" class="species-select" value="heli">
+                    <p id="heli">Helipanthera</p>
+                </label>
                 <!-- Squeakers -->
-                <button class="select-icon">
-                    <img src="https://placehold.co/100" alt="squeakers icon">
-                    <sub id="squeak">Squeakers</sub>
-                </button>
-                <!-- Monstrum -->
-                <button class="select-icon">
-                    <img src="https://placehold.co/100" alt="monstrum icon">
-                    <sub id="monst">Monstrum</sub>
-                </button>
-            </div>
-            <div class="info-box">
+                <label class="select-menu">
+                    <img src="images/select-squeak.png" alt="squeakers icon">
+                    <input type="radio" name="species-select" class="species-select" value="squeaker">
+                    <p id="squeaker">Squeaker</p>
+                </label>
+            </form>
+            <div class="info-box" id="species-box">
                 <h1>Species Name</h1>
                 <h4>Pronounciation</h4>
                 <img src="https://placehold.co/400">

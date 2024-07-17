@@ -213,33 +213,43 @@ main {
     justify-content: center;
 }
 
-.select-icon {
-    display: grid;
-    grid-template-columns: 1fr;
+.image-selection label {
     text-align: center;
-    margin: .4em;
+    margin: 1em;
     border: none;
     background-color: white;
 }
 
-.select-icon img {
+.image-selection input[type="radio"] {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.image-selection label img {
+    max-height: 100px;
     border-radius: 6px;
     border: 1px solid var(--color-one);
     box-shadow: 1px 1px 3px var(--color-three);
 }
 
-.select-icon sub {
+.image-selection label {
     padding-top: .4em;
     font-size: 1em;
     font-family: var(--heading-font);
 }
 
-.select-icon:hover {
+.image-selection p {
+    max-width: 120px;
+}
+
+
+.image-selection label:hover {
     font-size: 1em;
     font-weight: bold;
 }
 
-.select-icon img:hover {
+.image-selection img:hover {
     box-shadow: 2px 2px 4px var(--color-one);
 }
 
@@ -253,6 +263,7 @@ main {
 
 .info-box h4 {
     font-size: 1em;
+    margin-top: .7em;
     margin-bottom: 1em;
 }
 
@@ -345,7 +356,7 @@ input[type="submit"] {
     margin-left: .5em;
     padding: .75em 1em;
     font-size: 22px;
-    background-image: linear-gradient(var(--color-three), var(--color-two));
+    background-image: linear-gradient(var(--color-two), var(--color-three));
     border: 1px solid var(--color-three);
     border-radius: 6px;
     box-shadow: 1px 1px 1px var(--color-three);

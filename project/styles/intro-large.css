@@ -77,6 +77,11 @@
         margin: .4em 5em;
     }
 
+    #species-content h4,
+    #locations-content h4 {
+        margin-left: 2em;
+    }
+
     .info-box,
     .info-box p {
         text-align: left;

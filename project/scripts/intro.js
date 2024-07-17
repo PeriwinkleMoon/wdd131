@@ -22,15 +22,5 @@ hambutton.addEventListener("click", () => {
     hambutton.classList.toggle("show");
 });
 
-// ----------SPECIES PAGE----------
-
-// const speciesButton = document.querySelectorAll(".select-icon");
-
-// function activateSub(id) {
-
-// }
-// for (var i = 0 ; i < speciesButton.length; i++) {
-//     speciesButton[i].addEventListener('click' , showComment , false ) ;
-//  }
 
 

@@ -202,6 +202,7 @@ main {
     width: 95%;
     background-image: linear-gradient(to right, var(--color-one), rgba(255, 255, 255, 0));
     color: var(--color-three);
+    border: 1px solid #ffe3ee;
     border-radius: 3px;
     font-size: 3em;
 

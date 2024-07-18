@@ -74,7 +74,7 @@
     /* SPECIES PAGE */
     #species-content h2,
     #locations-content h2 {
-        margin: .4em 5em;
+        max-width: 1028px;
     }
 
     #species-content h4,

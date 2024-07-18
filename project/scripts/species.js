@@ -13,17 +13,17 @@ const getList = async () => {
 // Load saved local storage and populate page with default content
 function loadSave(list, activeSpecies) {
     let savedSpecies = localStorage.getItem('savedSpecies');
-    savedSpecies = savedSpecies.replace(/['"]+/g, ''); // Removes the extra quotation marks in the string.
     var species = {}; // Initializing "species" variable as an object.
 
     if (savedSpecies == "undefined" || !savedSpecies) {
-        species = list[uso]; // Default if local storage hasn't been set.
+        species = list.uso; // Default if local storage hasn't been set.
     }
     else if (activeSpecies) {
         species = list[activeSpecies];
         console.log(`species: ${species}`);
     }
     else { // This is the problem...
+        savedSpecies = savedSpecies.replace(/['"]+/g, ''); // Removes the extra quotation marks in the string.
         species = list[savedSpecies];
         console.log(`species: ${species}`);
     }

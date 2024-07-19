@@ -370,6 +370,22 @@ input[type="submit"]:hover {
     box-shadow: 2px 2px 2px var(--color-three);
 }
 
+.correct,
+.incorrect {
+    font-size: 18px;
+    padding-left: 2em;
+}
+
+.incorrect {
+    border-left: 6px solid red;
+    border-radius: 6px;
+}
+
+.correct {
+    border-left: 6px solid rgb(47, 255, 64);
+    border-radius: 6px;
+}
+
 /* -------------Footer------------- */
 footer {
     margin-top: auto;

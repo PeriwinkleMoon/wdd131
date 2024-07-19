@@ -15,7 +15,7 @@
     <script src="scripts/intro.js" defer></script>
 </head>
 
-<body>
+<body onload="answerLoad()">
     <header>
         <h1>Intro to Edemia</h1>
         <a id="hamburger" href="#"></a>
@@ -50,13 +50,13 @@
             <p>Now that you've read up a bit on the world of Edemia, let's test your knowledge. Think you can answer all
                 of the questions correctly? No cheating!</p>
             <div class="trivia-form">
-                <form class="trivia" method="get" action="trivia-answer.html" onsubmit="formSubmit()" id="trivia-form">
+                <form class="trivia" method="get" action="trivia.html" id="trivia-form">
                     <fieldset> <!-- GENERAL TRIVIA -------------->
                         <legend>General Trivia</legend>
                         <div> <!-- Founding Question -->
                             <p class="question-heading">What date did Edemia get its name?</p>
                             <div id="founding-answer">
-                                <label><input type="date" id="founding"></label>
+
                             </div>
 
                         </div>
@@ -66,19 +66,7 @@
                                 title
                                 "The Uso Queen"?</p>
                             <div id="uso-queen-answer">
-                                <select name="uso-queen" id="uso-queen" required>
-                                    <option value="">Choose a name...</option>
-                                    <option value="loli">Lolly</option>
-                                    <option value="sk">Ren (SK)</option>
-                                    <option value="trio">Trio</option>
-                                    <option value="wolf">Wolf</option>
-                                    <option value="gal">(Gal)catty</option>
-                                    <option value="darcy">Darcy</option>
-                                    <option value="imp">Imp</option>
-                                    <option value="dawn">Dawn</option>
-                                    <option value="batty">Batty</option>
-                                    <option value="selena">Selena (Mottie)</option>
-                                </select>
+
                             </div>
 
                         </div>
@@ -91,9 +79,7 @@
                         <div> <!-- Magic Diet Questions -->
                             <p class="question-heading">Which species' diet consists primarily of ambient magic?</p>
                             <div id="diet-answer">
-                                <label><input type="radio" name="magic-diet" value="gignosk" required>Gignosk</label>
-                                <label><input type="radio" name="magic-diet" value="uso" required>Uso</label>
-                                <label><input type="radio" name="magic-diet" value="tb" required>Temple Beast</label>
+
                             </div>
                         </div>
 
@@ -102,11 +88,7 @@
                                 <i class="question-heading">(Check all that apply)</i>
                             </p>
                             <div id="crystalid-answer">
-                                <label><input type="checkbox" name="crystalid" value="helipanthera"
-                                        required>Helipanthera</label>
-                                <label><input type="checkbox" name="crystalid" value="uso" required>Uso</label>
-                                <label><input type="checkbox" name="crystalid" value="snipe" required>Snipe</label>
-                                <label><input type="checkbox" name="crystalid" value="gignosk" required>Gignosk</label>
+
                             </div>
 
                         </div>
@@ -114,8 +96,7 @@
                         <div> <!-- Uso Question -->
                             <p class="question-heading">What is it called when an usogi becomes an usogami?</p>
                             <div id="uso-answer">
-                                <label><input type="text" id="uso-question" value="Type something here..."
-                                        required></label>
+
                             </div>
                         </div>
 
@@ -126,48 +107,27 @@
                         <div> <!-- Country Name Question -->
                             <p class="question-heading">Which country did we name first?</p>
                             <div id="country-answer">
-                                <select name="named-country" id="country-question" required>
-                                    <option value="">Pick a country...</option>
-                                    <option value="quardrium">Quardrium</option>
-                                    <option value="rictos">Rictos</option>
-                                    <option value="malchester">Malchester</option>
-                                    <option value="aquariall">Aquariall</option>
-                                    <option value="equalis">Equalis</option>
-                                    <option value="overgrowth">Overgrowth</option>
-                                    <option value="carsil">Carasil</option>
-                                    <option value="fabrem">Fabrem</option>
-                                    <option value="valkirii">Valkirii</option>
-                                    <option value="nokfil">Nokfil</option>
-                                    <option value="iaris">Iaris</option>
-                                    <option value="phurull">Phurull</option>
-                                    <option value="therminn">Therminn</option>
-                                    <option value="aurevant">Aurevant</option>
-                                </select>
+
                             </div>
                         </div>
 
                         <div> <!-- Rictos Dictator -->
                             <p class="question-heading">Rictos's immortal queen is named...</p>
                             <div id="dictator-answer">
-                                <label><input type="radio" name="queen-name" value="remilla" required>Remilla</label>
-                                <label><input type="radio" name="queen-name" value="angel" required>Angel</label>
-                                <label><input type="radio" name="queen-name" value="bastet" required>Bastet</label>
-                                <label><input type="radio" name="queen-name" value="galine" required>Galine</label>
-                                <label><input type="radio" name="queen-name" value="bismuth" required>Bismuth</label>
+
                             </div>
                         </div>
 
                         <div> <!-- Landlocked -->
                             <p class="question-heading">True or false: Carasil is completely landlocked.</p>
                             <div id="landlocked-answer">
-                                <label><input type="radio" name="tof" value="true" required> True</label>
-                                <label><input type="radio" name="tof" value="false" required> False</label>
+
                             </div>
                         </div>
 
                     </fieldset>
                     <div id="redo">
-                        <label><input type="submit" value="Lock-in Answers" id="trivia-submit"></label>
+                        <label><input type="submit" value="Try Again?" id="trivia-submit"></label>
                     </div>
                 </form>
             </div>

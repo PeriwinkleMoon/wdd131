@@ -240,10 +240,6 @@ main {
     font-family: var(--heading-font);
 }
 
-.image-selection p {
-    max-width: 120px;
-}
-
 
 .image-selection label:hover {
     font-size: 1em;
@@ -252,6 +248,15 @@ main {
 
 .image-selection img:hover {
     box-shadow: 2px 2px 4px var(--color-one);
+}
+
+.over-menu,
+.other-menu {
+    padding: 0 2em;
+    line-height: 4em;
+    background-image: linear-gradient(var(--color-one), #ffd7e6);
+    border: 2px solid var(--color-three);
+    border-radius: 6px;
 }
 
 /* Info box */
@@ -297,6 +302,38 @@ main {
 
 #lassi-box img {
     max-width: 600px;
+}
+
+#wikitable {
+    width: 80%;
+    margin: 1em auto;
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 6px;
+    border-collapse: collapse;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .02);
+}
+
+#wikitable caption {
+    caption-side: bottom;
+    font-size: smaller;
+    padding: 0.2em;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 1em;
+}
+
+tbody th {
+    background-color: rgb(173, 173, 173);
+    padding: 1em;
+    font-size: 1.2em;
+    padding: .5em;
+    border: 1px solid rgb(65, 65, 65);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
 }
 
 /*----------------- TRIVIA PAGE -----------------*/

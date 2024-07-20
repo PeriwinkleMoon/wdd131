@@ -22,7 +22,7 @@ hambutton.addEventListener("click", () => {
     hambutton.classList.toggle("show");
 });
 
-// TRIVIA
+// ----------------- TRIVIA
 function capitalizeFirstLetter(string) {
     string = string.replace(/['"]+/g, '');
     return string.charAt(0).toUpperCase() + string.slice(1);

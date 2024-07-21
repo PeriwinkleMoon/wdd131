@@ -82,6 +82,10 @@
         margin-left: 2em;
     }
 
+    .info-box {
+        padding: 2em;
+    }
+
     .info-box,
     .info-box p {
         text-align: left;
@@ -115,5 +119,10 @@
         height: auto;
         padding: 1em;
         border-radius: 20%;
+    }
+
+    #wikitable {
+        font-size: 1em;
+        max-width: 80%;
     }
 }

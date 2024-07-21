@@ -263,7 +263,7 @@ main {
 .info-box {
     border: 1px solid var(--color-three);
     border-radius: 6px;
-    padding: 2em;
+    padding: 2em 1em;
     margin: 1em 0;
 }
 
@@ -305,12 +305,13 @@ main {
 }
 
 #wikitable {
-    width: 80%;
+
     margin: 1em auto;
     border: 2px solid rgb(173, 173, 173);
     border-radius: 6px;
     border-collapse: collapse;
     box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .02);
+    font-size: .75em;
 }
 
 #wikitable caption {
@@ -321,13 +322,11 @@ main {
 
 td {
     border: 1px solid gray;
-    padding: 1em;
+    padding: .5em;
 }
 
 tbody th {
     background-color: rgb(173, 173, 173);
-    padding: 1em;
-    font-size: 1.2em;
     padding: .5em;
     border: 1px solid rgb(65, 65, 65);
 }

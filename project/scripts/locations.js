@@ -68,7 +68,7 @@ function loadSave(list, continent, active) {
 
 // Populate content with induvidual species information
 function populateContent(saved, continent) {
-    continent.innerHTML = `<h1>${saved.name}</h1> <h4>${saved.pronounciation}</h4> <img src='${saved.image}' alt='${saved.name} Splash Image.'> ${saved.p}`;
+    continent.innerHTML = `<h1>${saved.name}</h1> <h4>${saved.pronounciation}</h4> <img src='${saved.image}' alt='${saved.name} Splash Image.' loading='lazy'> ${saved.p}`;
 };
 
 // Save active species to local storage

@@ -1,4 +1,37 @@
-Hero image (all pages): https://cdn.discordapp.com/attachments/346150122582835210/768999825151885312/meteor.png?ex=668d3225&is=668be0a5&hm=596cebd992952f565ae4ad3aab4bd6c0c48b30b9711a38e954b71b7e34c5f39e&
+Hero image (all pages): https://static.miraheze.org/edemiawiki/3/32/Meteorite_City.png
     Description: Illustration of Meteor, the capital of Fabrem.
     Artist: Ren/SK/Nova/Sirpumpkinlumps
         Artist link: https://toyhou.se/Sirpumpkinlumps
+
+All species selection images (Species page):
+	Description: Headshot icons of each species in rainbow color order
+	Artist: Me
+
+Uso splash image (Species page): splice of https://f2.toyhou.se/file/f2-toyhou-se/images/83862787_jO9tFEW1tsznQeZ.png / https://f2.toyhou.se/file/f2-toyhou-se/images/84223349_MBE8Lpp6mbJ1QQx.png / https://f2.toyhou.se/file/f2-toyhou-se/images/83819855_tnm3WbLoSabwe4D.png?1718840862
+	Description: Fullbody drawings taken from reference sheets for characters (left to right) Alexis, Calligraphy, and Aurelia
+	Artist: Me
+
+Snipe splash image (Species page): https://f2.toyhou.se/file/f2-toyhou-se/images/47656604_WmerJkXPMrauY2c.png?1649267771
+	Description: Illustration of characters Sally, and Cam (child)
+	Artist: Me
+
+Gignosk splash image (Species page): https://f2.toyhou.se/file/f2-toyhou-se/images/52382435_hRehe61zyZVd8xK.png
+	Description: Illustration of character Maeve Garnier
+	Artist: Me
+
+TB splash image (Species page): https://f2.toyhou.se/file/f2-toyhou-se/images/46156371_A0cUJP8PXNHEHUZ.png?1646259746
+	Description: Illustration of characters (left to right) Granite, Mothy, and Eternal
+	Artist: Me
+
+Helipanthera splash image (Species page): https://static.miraheze.org/edemiawiki/thumb/8/8f/Helipanthera_example.png/800px-Helipanthera_example.png
+	Description: Examples of helipanthera 
+    	Artist: Trio/Acypresstree
+        	Artist link: https://toyhou.se/acypresstree
+
+Squeaker splash image (Species page): https://f2.toyhou.se/file/f2-toyhou-se/images/20298099_XvuXQFcLXlVvve2.png
+	Description: Drawing of character "Sleepy Boy"
+	Artist: Me
+
+Fabrem, Aquariall, and Malchester selection image (Locations page):
+	Artist: Ren/SK/Nova/Sirpumpkinlumps (edits by me)
+		Artist link: https://toyhou.se/Sirpumpkinlumps

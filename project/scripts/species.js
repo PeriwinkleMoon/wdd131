@@ -32,7 +32,7 @@ function loadSave(list, activeSpecies) {
 
 // Populate content with induvidual species information
 function populateContent(savedSpecies) {
-    lassiBox.innerHTML = `<h1>${savedSpecies.name}</h1> <h4>${savedSpecies.pronounciation}</h4> <img src='${savedSpecies.image}' alt='${savedSpecies.name} Splash Image.'> ${savedSpecies.p}`;
+    lassiBox.innerHTML = `<h1>${savedSpecies.name}</h1> <h4>${savedSpecies.pronounciation}</h4> <img src='${savedSpecies.image}' alt='${savedSpecies.name} Splash Image.' loading='lazy'> ${savedSpecies.p}`;
 };
 
 // Save active species to local storage
